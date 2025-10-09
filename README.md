@@ -56,10 +56,7 @@ git config --global user.email "yourEmail@gmail.com"
 - Tell git that we want it to track this file\
 `git init`
 - This will create a `.git` file within your repo. Note that it is a hidden file
-- Note also that no branch has been made yet\
-`git branch` returns nothing.
-- Let's create our main branch\
-`git checkout -b main`
+- Your first time initializing a repository, git may ask you if you want to rename your default branch from `master`. Follow the provided instructions to change it to `main`
 - For more information about branches, and what this is doing, see the branch section
 
 ## Changes
@@ -115,7 +112,7 @@ git commit -a (Skip the staging step. Add all files that have been changed/delet
 - If further changes of the file are made, we need to update this snapshot, by repeating `git add a.txt`
     - One way to picture the purpose of the staging area, is to think of it as the counter at a restaurant the chef's put the food on for the servers to take to the customers,
     - If the food needs changes (perhaps the chef forgot some salt) changes can still be made to the plate. (using `git add filename` again after changes have been made)
-    - If the food (file) is a mistake, and never should have been served, it can be removed from the counter `git rm --cached filename`
+    - If the food (file) is a mistake, and never should have been tracked, it can be removed from the counter perminently with `git rm --cached filename`
     - If it's ready to be taken away, we can commit it, and have the server take the plates away.
 
 ---
