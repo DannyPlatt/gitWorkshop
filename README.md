@@ -32,7 +32,7 @@ make pr on github
 - Push to your remote branch (NOT MAIN)
 - Do not make Pull Requests that are that do not function/work
 
-## Welcome
+## Welcome - from the workshop
 Welcome to the **Git Workshop**! This repository will serve as the base for our workshop activities.
 Note that this workshop assumes you already have git installed and connected to your GitHub account
 
